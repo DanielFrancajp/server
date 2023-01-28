@@ -1,22 +1,14 @@
 {
-  "name": "server",
+  "name": "backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "CRIAR PROJETO COM NODE\r npm init -y\r npm i fastify",
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DanielFrancajp/server.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DanielFrancajp/server/issues"
-  },
-  "homepage": "https://github.com/DanielFrancajp/server#readme",
   "dependencies": {
     "@fastify/cors": "^8.2.0",
     "@prisma/client": "^4.9.0",
